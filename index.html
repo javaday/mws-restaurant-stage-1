@@ -5,6 +5,7 @@
 	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
 	<link rel="stylesheet" href="css/styles.css">
 	<title>Restaurant Reviews</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -16,30 +17,29 @@
 			</h1>
 		</nav>
 	</header>
+	<section class="filter">
+		<select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+			<option value="all">All Neighborhoods</option>
+		</select>
+		<select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+			<option value="all">All Cuisines</option>
+		</select>
+	</section>
 
-	<main id="maincontent">
-		<section id="map-container">
+	<main>
+		<section class="map">
 			<div id="map"></div>
 		</section>
-		<section>
-			<div class="filter-options">
-				<h2>Filter Results</h2>
-				<select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-					<option value="all">All Neighborhoods</option>
-				</select>
-				<select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-					<option value="all">All Cuisines</option>
-				</select>
-			</div>
+		<section class="restaurants">
 			<ul id="restaurants-list"></ul>
 		</section>
 	</main>
 
-	<footer id="footer">
+	<footer>
 		Copyright (c) 2017
 		<a href="/">
 			<strong>Restaurant Reviews</strong>
-		</a> All Rights Reserved.
+		</a> All Rights Reserved.	
 	</footer>
 
 	<script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
