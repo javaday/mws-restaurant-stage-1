@@ -151,6 +151,8 @@ class DBHelper {
 	 */
 	static imageUrlForRestaurant(restaurant, folder) {
 
+		folder = folder || 'medium';
+		
 		return (`/img/${folder}/${restaurant.photograph}`);
 	}
 
