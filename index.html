@@ -42,17 +42,7 @@
 		</a> All Rights Reserved.
 	</footer>
 
-	<script>
-		if ('serviceWorker' in navigator) {
-			window.addEventListener('load', () => {
-				navigator.serviceWorker.register('/sw.js').then(registration => {
-					console.log('SW registered: ', registration);
-				}).catch(registrationError => {
-					console.log('SW registration failed: ', registrationError);
-				});
-			});
-		}
-	</script>
+	<script src="js/sw-register.js"></script>
 	<script src="js/dbhelper.js"></script>
 	<script src="js/main.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8Rvxu3xeeWOrRoqc9sIBRWaQcC544aMI&libraries=places&callback=initMap"></script>
