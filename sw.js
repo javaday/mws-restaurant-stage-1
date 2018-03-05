@@ -156,7 +156,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "382ef1677f368f4ebbfdc2f7b8d7b4cc"
+    "revision": "383c13eeed988d6f55324e4b671f5381"
   },
   {
     "url": "js/dbhelper.js",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "05b2915572d27d1331301a567a9ee459"
+    "revision": "5090eac03e5f567e2ce8b5a3004fde27"
   },
   {
     "url": "js/restaurant_info.js",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
   },
   {
     "url": "restaurant.html",
-    "revision": "e7211c19f4c18a42eabe798e7cc5221a"
+    "revision": "aaa291899e085f71b887d3db4001c554"
   },
   {
     "url": "workbox-config.js",
