@@ -164,11 +164,11 @@ self.__precacheManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "5090eac03e5f567e2ce8b5a3004fde27"
+    "revision": "d5afa6e938545c0f960d92844901a66d"
   },
   {
     "url": "js/restaurant_info.js",
-    "revision": "57625eb08d27c2e99c3ecc3d0acf8172"
+    "revision": "f2ecb61dceb97da0ae1aacbe3cea20b6"
   },
   {
     "url": "js/sw-register.js",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
   },
   {
     "url": "package.json",
-    "revision": "6d97ae0731ef3174252a2c59f46ecb50"
+    "revision": "c9a7df49861bc6776726370d85463726"
   },
   {
     "url": "restaurant.html",
