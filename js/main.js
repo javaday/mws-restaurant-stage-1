@@ -157,7 +157,7 @@ createRestaurantHTML = (restaurant) => {
 	}
 
 	image.src = DBHelper.imageUrlForRestaurant(restaurant, imgFolder);
-	image.alt = restaurant.name;
+	image.alt = `An image of ${restaurant.name} in ${restaurant.neighborhood}`;
 
 	li.append(image);
 
